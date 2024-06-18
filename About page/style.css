@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    background-color: #f8f8f8;
+}
+.heading h1{
+    color: #333;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+.hero-content{
+    flex: 1;
+    width: 500px;
+    margin: 0px 25px;
+}
+.hero-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.hero-content p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+.hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+}
+.hero-content button{
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.hero-content button:hover{
+    transform: scale(1.1); 
+    opacity: 0.8;
+}
+.hero-content button:active{
+    opacity: 0.9;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

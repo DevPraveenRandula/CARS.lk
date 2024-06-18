@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: #ffffff;
+    color: #121212;
+
+}
+header{
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background:#ffff;
+    box-shadow: 0px 2px 18px rgb(129 162 182/20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 8%;
+    transition: .3s;
+}
+.logo{
+    color: #121212;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 0.8;
+}
+#menu-icon{
+    font-size: 38px;
+    color: #121212;
+    z-index: 10001;
+    display: none;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size:  1.1rem;
+    color: #121212;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: all .40s ease;
+}
+.navbar a:hover{
+    background: #121212;
+    color: #fff;
+}
+.icons{
+    display: inline-block;
+}
+.icons i{
+    color: #121212;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.icons i:hover{
+    opacity: 0.7;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Arivals Section */
+
+.arrivals .arr-row.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.arrivals-show{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.arrivals.show .col-1{
+    flex: 1 1 2rem;
+    width: 200px;
+}
+
+.arrivals .show .col-1 h5{ 
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.arrivals .show .col-2{
+    flex:1 1 60rem;
+}
+.arrivals .show .col-2 .image{
+    height: 16rem;
+}
+
+/* Product Section */
+
+.arrivals{
+    text-align: center;
+    padding-top: 7rem;   
+}
+.arrivals h4{
+    color: #333;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.arrivals h4 i{
+    padding-right:0.5rem;
+}
+.arrivals h1{
+    padding-bottom: 4rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #121212;
+}
+.arrivals h1 span{
+    color: #333;   
+}
+
+.arrivals .arr-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+.arr-row .arr-col{
+    padding: 1rem;
+    box-shadow: 0 0 5px #646161;
+    background:#fff;
+    border-radius: 10px;
+    text-align: justify;
+}
+.arr-row .arr-col .image {
+    width: 100%;
+    height: 13rem;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.arr-row .arr-col .image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.arr-row .arr-col .image:hover img{
+    transform: scale(1.2);
+}
+
+.arr-row .arr-col h5{
+    font-size: 1.8rem;
+    padding:1rem 0;
+    color: #121212;
+}
+.arr-col .features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding-bottom: 0rem;
+}
+.arr-col .features span {
+    font-size: 1.4rem;
+    color:#646161;
+}
+.arr-col .features span i{
+    color: #333;
+    padding-right: 0.3rem;
+}
+.arr-col .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arr-col .price p{
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.arr-col .price button{
+    background:#000 ;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+.arr-col .price button:hover{
+    opacity: 0.8;
+}
+.arr-col .price button:active{
+    opacity: 0.9;
+} 

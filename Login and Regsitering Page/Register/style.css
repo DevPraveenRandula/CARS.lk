@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(235, 239, 240);
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+}
+.container header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 500px;
+}
+
+.container form .details.ID{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container form .title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+}
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+}
+.input-field label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+/* Register BTN */
+.container form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.6s linear;
+}
+form button:hover{
+    background-color: #265df2;
+}
+
+
+
+/* Need to change the Button Hover */
+/* Add the Footer and nav bar */
